@@ -1,8 +1,8 @@
 // src/components/CategoryFilter.js
 import React from 'react';
-import '../styles/CategoryFilter.css';  // Update this path
+import '../styles/CategoryFilter.css';  // Make sure the path is correct
 
-const categories = ['All', 'Living Room', 'Dining Room', 'Office'];
+const categories = ['All', 'Living Room', 'Dining Room', 'Office', 'Kitchen'];  // Added 'Kitchen'
 
 const CategoryFilter = ({ onFilter }) => {
   return (

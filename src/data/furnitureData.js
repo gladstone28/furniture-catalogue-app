@@ -24,7 +24,23 @@ const furnitureData = [
     price: '$120',
     testimonial: 'Great for long hours of work.',
   },
-  // Add more furniture items here as needed
+  // New Kitchen items
+  {
+    id: 4,
+    name: 'Kitchen Island',
+    category: 'Kitchen',
+    image: `${process.env.PUBLIC_URL}/images/kitchen_island.jpg`, // Kitchen island image path
+    price: '$900',
+    testimonial: 'The perfect addition for extra kitchen workspace!',
+  },
+  {
+    id: 5,
+    name: 'Bar Stools',
+    category: 'Kitchen',
+    image: `${process.env.PUBLIC_URL}/images/bar_stools.jpg`, // Bar stools image path
+    price: '$200',
+    testimonial: 'Stylish and comfortable for the kitchen counter.',
+  },
 ];
 
 export default furnitureData;
