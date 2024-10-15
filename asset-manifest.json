@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/furniture-catalogue-app/static/css/main.7270e714.css",
-    "main.js": "/furniture-catalogue-app/static/js/main.3cb51eac.js",
+    "main.js": "/furniture-catalogue-app/static/js/main.40ec645a.js",
     "index.html": "/furniture-catalogue-app/index.html",
     "main.7270e714.css.map": "/furniture-catalogue-app/static/css/main.7270e714.css.map",
-    "main.3cb51eac.js.map": "/furniture-catalogue-app/static/js/main.3cb51eac.js.map"
+    "main.40ec645a.js.map": "/furniture-catalogue-app/static/js/main.40ec645a.js.map"
   },
   "entrypoints": [
     "static/css/main.7270e714.css",
-    "static/js/main.3cb51eac.js"
+    "static/js/main.40ec645a.js"
   ]
 }
