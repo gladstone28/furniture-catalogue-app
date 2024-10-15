@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>Furniture Catalogue</h1>
+      <h1>SpreadEagles Furniture Catalogue</h1>
       <CategoryFilter onFilter={filterFurniture} />
       <div className="furniture-grid">
         {filteredFurniture.map(furniture => (
