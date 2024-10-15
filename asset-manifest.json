@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/furniture-catalogue-app/static/css/main.6c638aee.css",
+    "main.js": "/furniture-catalogue-app/static/js/main.ed775c5b.js",
+    "index.html": "/furniture-catalogue-app/index.html",
+    "main.6c638aee.css.map": "/furniture-catalogue-app/static/css/main.6c638aee.css.map",
+    "main.ed775c5b.js.map": "/furniture-catalogue-app/static/js/main.ed775c5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c638aee.css",
+    "static/js/main.ed775c5b.js"
+  ]
+}
