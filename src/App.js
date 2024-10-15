@@ -2,8 +2,9 @@
 import React, { useState } from 'react';
 import FurnitureCard from './components/FurnitureCard';
 import CategoryFilter from './components/CategoryFilter';
-import './styles/App.css'; // Import main app styles
-import furnitureData from './data/furnitureData'; // Import mock data
+import Footer from './components/Footer';  // Import Footer
+import './styles/App.css'; 
+import furnitureData from './data/furnitureData';
 
 const App = () => {
   const [category, setCategory] = useState('All');
@@ -18,13 +19,16 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>SpreadEagles Furniture Catalogue</h1>
+      <h1>Furniture Catalogue</h1>
       <CategoryFilter onFilter={filterFurniture} />
       <div className="furniture-grid">
         {filteredFurniture.map(furniture => (
           <FurnitureCard key={furniture.id} furniture={furniture} />
         ))}
       </div>
+      
+      {/* Footer component */}
+      <Footer />
     </div>
   );
 };
