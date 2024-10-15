@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>&copy; {new Date().getFullYear()} Spread Eagles Furniture Catalogue. All rights reserved.</p>
-      <p>Designed with ❤️ by Gladstone rose(Quality Solutions Limited)</p>
+      <p>Designed with ❤️ by Gladstone Rose(Quality Solutions Limited)</p>
     </footer>
   );
 };
