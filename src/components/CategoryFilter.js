@@ -1,6 +1,6 @@
-// CategoryFilter.js
+// src/components/CategoryFilter.js
 import React from 'react';
-import './CategoryFilter.css'; // for button styling
+import '../styles/CategoryFilter.css';  // Update this path
 
 const categories = ['All', 'Living Room', 'Dining Room', 'Office'];
 
