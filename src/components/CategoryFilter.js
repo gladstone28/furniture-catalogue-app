@@ -2,7 +2,7 @@
 import React from 'react';
 import '../styles/CategoryFilter.css';  // Make sure the path is correct
 
-const categories = ['All', 'Living Room', 'Dining Room', 'Office', 'Kitchen'];  // Added 'Kitchen'
+const categories = ['All', 'Living Room', 'Dining Room', 'Office', 'Kitchen', 'Novelty Products'];  // Added 'Novelty Products'
 
 const CategoryFilter = ({ onFilter }) => {
   return (
