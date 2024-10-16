@@ -40,12 +40,11 @@ const furnitureData = [
     price: '$200',
     testimonial: 'Stylish and comfortable for the kitchen counter.',
   },
-  // New Novelty Products category items
   {
     id: 6,
     name: 'Funky Chair',
     category: 'Novelty Products',
-    image: `${process.env.PUBLIC_URL}/images/funky_chair.jpg`,  // Path to funky chair image
+    image: `${process.env.PUBLIC_URL}/images/funky_chair.jpg`,
     price: '$150',
     testimonial: 'Bright and fun for any room!',
   },
@@ -53,9 +52,18 @@ const furnitureData = [
     id: 7,
     name: 'Quirky Lamp',
     category: 'Novelty Products',
-    image: `${process.env.PUBLIC_URL}/images/quirky_lamp.jpg`,  // Path to quirky lamp image
+    image: `${process.env.PUBLIC_URL}/images/quirky_lamp.jpg`,
     price: '$75',
     testimonial: 'Add a touch of whimsy to your lighting.',
+  },
+  // New Pens entry
+  {
+    id: 8,
+    name: 'Novelty Pens',
+    category: 'Novelty Products',
+    image: `${process.env.PUBLIC_URL}/images/novelty_pens.jpg`,  // Path to pens image
+    price: '$10',
+    testimonial: 'Perfect for adding personality to your writing!',
   }
 ];
 
