@@ -56,14 +56,22 @@ const furnitureData = [
     price: '$75',
     testimonial: 'Add a touch of whimsy to your lighting.',
   },
-  // New Pens entry
   {
     id: 8,
     name: 'Novelty Pens',
     category: 'Novelty Products',
-    image: `${process.env.PUBLIC_URL}/images/novelty_pens.jpg`,  // Path to pens image
+    image: `${process.env.PUBLIC_URL}/images/novelty_pens.jpg`,
     price: '$10',
     testimonial: 'Perfect for adding personality to your writing!',
+  },
+  // Add a new sofa set in Living Room category
+  {
+    id: 9,
+    name: 'Modern Sofa Set',
+    category: 'Living Room',
+    image: `${process.env.PUBLIC_URL}/images/modern_sofa.jpg`,  // Path to new sofa image
+    price: '$650',
+    testimonial: 'A sleek and modern design, perfect for any living room!',
   }
 ];
 
